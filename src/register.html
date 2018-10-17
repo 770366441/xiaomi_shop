@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米账号 - 注册</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div id="login_up_content">
+        <!-- top_logo -->
+        <span class="login_up_logo"></span>
+        <!-- top_title -->
+        <div class="login_up_title">
+            <h2>注册小米账号</h2>
+        </div>
+        <!-- form -->
+        <div class="formbox">
+            <h3>国家/地区</h3>
+            <div class="country_select">
+                <div class="country_content">
+                    <p class="country_confirm">中国</p>
+                    <i id="country_icon"></i>
+                </div>
+                <ul class="country_list">
+                	<input type="text" id="country_name"/>
+                	<li class="comment">常用</li>
+                	<li class="comment_li" id ="hangguo">韩国</li>
+                </ul>
+            </div>
+            <div class="country_warning">
+                成功注册帐号后，国家/地区将不能被修改
+            </div>
+            <h3>手机号码</h3>
+            <div class="tel_box">
+                <div class="tel_start">
+                    <p class="_iphone">+86</p>
+                    <i></i>
+                </div>
+                <input type="text" class="tel_input" placeholder="请输入手机号码"/>
+            </div>
+            <ul class="iphone_list">
+                <input type="text" id="iphone_name" />
+                <li class="iphone_comment">常用</li>
+                <li class="iphone">
+                	<span class="country_left">中国</span>
+                	<span class="iphone_right">+86</span>
+                </li>
+            </ul>
+            <span id='ipW'></span>
+            <!-- button -->
+            <div class="login_up_btn">
+                <input  type="submit" value="立即注册" class="login_up">
+
+            </div>
+            
+
+        </div>
+        <!-- message -->
+        <div class="msg">
+            <i class="msg_select"></i>
+            注册帐号即表示您同意并愿意遵守小米 
+            <a href="#" class="msg_userXieYi">用户协议</a>
+            和
+            <a href="#" class="msg_YinSi">隐私政策</a>
+        </div>
+
+
+    </div>
+    <!-- bottom  -->
+    <div class="bottom">
+        <div class="bottom_list">
+            <ul>
+                <li>
+                    <a href="">
+                        简体
+                    </a>
+                    <span>丨</span>
+                    <a href="">
+                        繁体
+                    </a>
+                    <span>丨</span>
+                    <a href="">
+                        English
+                    </a>
+                    <span>丨</span>
+                    <a href="">
+                        常见问题
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="bottom_info">
+            <span>
+                    小米公司版权所有-京ICP备10046444-
+                    <i></i>
+                    京公网安备11010802020134号-京ICP证110507号
+            </span>
+        </div>
+
+
+    </div>
+    <script src="js/ajaxwang.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/register_country.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		country_list.init();
+		ajaxCountry();
+		testIphone();
+		register.init();
+	</script>
+</body>
+</html>

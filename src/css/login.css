@@ -1,0 +1,279 @@
+html,body,ul,li,ol,h1,h2,h3,h4,h5,h6,p,form,img,input{
+    margin:0px;
+    padding:0px;
+}
+input,button,textarea,select{
+    outline: 0;
+}
+input{
+    border: 0 none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+#header{
+    width: 1130px;
+    margin: 0 auto;
+}
+.header_logo{
+    width: 200px;
+    height: 98px;
+    background-image: url(../img/align/mistore_logo.png);
+}
+.header_a{
+    display: block;
+    width: 200px;
+    height: 98px;
+}
+
+/* banner */
+#banner{
+    height: 568px;
+    position: relative;
+}
+.banner_show_img{
+    width: 100%;
+    height: 537px;
+    background-image: url(../img/align/show_banner.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+}
+.banner_show_img a{
+    display: block;
+    height: 537px;
+    width: 100%;
+}
+
+/* form login_in */
+
+/* 二维码登录 */
+.ewm_login{
+    display: none;
+}
+.login_img{
+    margin-left: 115px;
+    margin-top: 100px;
+    display: block;
+}
+.ewm_login i {
+    color: #ff6700;
+    font-size: 14px;
+    font-style: normal;
+}
+.ewm_login_info{
+    margin-top: 15px;
+}
+.ewm_login span{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: #757575;
+}
+/* 手机号登陆 */
+.tel_login{
+    display: block;
+}
+
+
+#form_login_in{
+    width: 410px;
+    min-height: 524px;
+    position: absolute;
+    z-index: 3;
+    top: 130px;
+    right: 100px;
+    background: #fff;
+}
+.form_top{
+    /* width: 410px; */
+    /* height: 82px; */
+    padding: 27px 0 24px;
+    font-size: 24px;
+    text-align: center;
+}
+.form_top_line{
+    color: #e0e0e0;
+    margin:0 32px 0 42px;
+}
+.form_top_a1{
+    cursor: pointer;
+}
+.a_in{
+    color: #f56600;
+    cursor: pointer;
+}
+.a_out:hover{
+    color: #f56600;
+}
+.a_out{
+    color: #666;
+    cursor: pointer;
+}
+.form_top_a2{
+    cursor: pointer;
+}
+.form_top_a1:hover{
+    color: #f56600;
+}
+.form_top_a2:hover{
+    color: #f56600;
+}
+
+/* .form_inp */
+.form_inp{
+    width: 346px;
+    height: 216px;
+    padding: 10px 32px 0 32px;
+}
+
+.form_name,.form_pass{
+    margin-bottom: 14px;
+    color: #333;
+    width: 316px;
+    height: 22px;
+    padding: 13px 16px 13px 14px;
+    border: 1px solid #ccc;
+}
+
+.form_inp_btn{
+    display: block;
+    background: #ef5b00;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+.form_inp_a1{
+    color: #ef5b00;
+    font-size: 14px;
+}
+.form_top_login_up,.form_top_find_pass{
+    font-size: 14px;
+    color: #666;
+    float: right;
+}
+.form_top_line2{
+    float: right;
+    color: #666;
+}
+.form_top_login_up:hover,.form_top_find_pass:hover{
+    color: #ef5b00;
+}
+
+.other_login_type{
+    width: 100%;
+    position: absolute;
+    top: 428px;
+}
+.other_login_type_line{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    width: 320px;
+    margin-left: 30px;
+}
+.other_legend{
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.other_login_icon{
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding-left: 26px;
+ 
+}
+.icon_qq,.icon_weibo,.icon_alipay,.icon_weixin{
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.btn_qq{
+    background-color: #0288d1;
+}
+.btn_weibo{
+    background-color: #d32f2f;
+}
+.btn_alipay{
+    background-color: #0ae;
+}
+.btn_weixin{
+    background-color: #00d20d;
+}
+.icon_qq_i,.icon_weibo_i,.icon_alipay_i,.icon_weixin_i{
+    background-repeat: no-repeat;
+    background-image: url(../img/align/icons_type.png);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    text-align: center;
+}
+.icon_qq_i{
+    background-position: -19px 0px; 
+    margin-top: -3px;
+}
+.icon_weibo_i{
+    background-position: -38px 0px; 
+    margin-top: -3px;
+}
+.icon_alipay_i{
+    background-position: -57px 0px; 
+    margin-right: -3px;
+    width: 24px;
+    margin-top: -1px;
+}
+.icon_weixin_i{
+    background-position: -83px 0px; 
+    width: 24px;
+    margin-top: -2px;
+}
+
+/* bottom */
+.bottom{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.bottom_list{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.bottom_list ul li a{
+    color:#666;
+}
+.bottom_list ul li a:hover{
+    color:#000
+}
+.bottom_list ul li span{
+    color:#666;
+}
+
+.bottom_info{
+    margin: 10px auto;
+    text-align: center;
+}
+.bottom_info span{
+    color: #666;
+    font-size: 14px;
+}
+.bottom_info i{
+    background-image: url(../img/align/ghs.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+

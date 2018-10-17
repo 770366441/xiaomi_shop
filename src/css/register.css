@@ -1,0 +1,294 @@
+html,body,ul,li,ol,h1,h2,h3,h4,h5,h6,p,form,img,input{
+    margin:0px;
+    padding:0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+input,button,textarea,select{
+    outline: 0;
+}
+input{
+    border: 0 none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #f9f9f9;
+    font-size: 14px;
+}
+#login_up_content{
+    width: 854px;
+    min-height: 100px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* logo */
+.login_up_logo{
+    display: block;
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    background-image: url(../img/align/milogo.png);
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+/* title */
+.login_up_title h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* formbox */
+.formbox{
+    padding: 30px 0;
+    width: 332px;
+    margin: 0 auto;
+    position: relative;
+}
+.formbox h3{
+    font-size: 14px;
+    display: block;
+    padding-bottom: 5px;
+    color: #333;
+}
+.country_select{
+    border: 1px solid #e8e8e8;
+    height: 40px;
+    position: relative;
+}
+.country_content{
+    cursor: pointer;
+    color: #555;
+    line-height: 40px;
+    padding-left: 14px;
+}
+.country_content p{
+    border-right: 1px solid #e8e8e8;
+    width: 275px;
+    font-size: 14px;
+    color: #555555;
+    float: left;
+}
+.country_content i{
+    background-image: url(../img/align/icon_user.png);
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin: 11px 12px 0 12px;
+}
+.country_list
+{
+	overflow-y: scroll;
+	overflow-x:hidden;
+	width:330px;
+	height: 300px;
+	border:1px solid #e8e8e8;
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: -1px;
+	z-index: 4;
+	background: #fff;
+	cursor:pointer;
+}
+#country_name,#iphone_name{
+	margin: 10px 0 10px 10px;
+	width: 294px;
+	height: 32px;
+	border: 1px solid #e0e0e0;
+}
+.comment,.iphone_comment{
+	height: 21px;
+	width:100%;
+	background:#fcdecc;
+	font-size:12px;
+	color: #ef5b00;
+	padding-left: 10px;
+	padding-top: 9px;
+	
+}
+.comment_li
+{
+	display: block;
+	height: 45px;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 12px;
+	line-height: 45px;
+	color: #000000;
+	border-bottom: 1px solid #e8e8e8;
+}
+.comment_li:hover{
+	background: #eaeaea;
+}
+.iphone:hover{
+	background: #eaeaea;
+	
+}
+.country_warning{
+    padding-top: 5px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.tel_box
+{
+	position:relative;
+}
+.iphone_list{
+
+	overflow-y: scroll;
+	overflow-x:hidden;
+	width:329px;
+	height: 300px;
+	border:1px solid #e8e8e8;
+	display: none;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	z-index: 5;
+	background: #fff;
+	cursor:pointer;
+}
+.iphone
+{
+	height: 45px;
+	width: 100%;
+	padding-left: 10px;
+	line-height: 45px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.country_left
+{
+	float:left
+	color: #000000;
+}
+.iphone_right{
+	color: #9d9d9d;
+	float:right;
+	margin-right: 27px;
+}
+#ipW{
+	font-size: 12px;
+	color: #ff6695;
+	display: block;
+	margin: 50px 0 -5px 20px;
+}
+.tel_start{
+    width: 54px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    padding: 0 9px;
+    float: left;
+    cursor: pointer;
+}
+.tel_start p{
+    float: left;
+}
+.tel_start i{
+    width: 0;
+    height: 0;
+    float: left;
+    border-width: 5px;
+    margin: 17px 0 0 8px;
+    border-style: solid;
+    border-color:#9d9d9d transparent transparent transparent;
+}
+
+.tel_input{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+    width: 236px;
+    border: 1px solid #e8e8e8;
+    border-left: 0;
+    color: #9d9d9d;
+}
+
+.login_up{
+    background: #ff6700;
+    border: 1px solid rgba(186,186,186,0.3);
+    color: #fff;
+    width: 330px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.tel_start p,.tel_start i{
+    color: #666;
+}
+
+/* message */
+.msg{
+    margin-top: 50px;
+    color: #9d9d9d;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.msg_select{
+    margin-right: 3px;
+    display: inline-block;
+    background-image: url(../img/align/icon_user.png);
+    width: 18px;
+    height: 16px;
+    background-position: -16px 0;
+    vertical-align: middle;
+}
+
+.msg_userXieYi,.msg_YinSi{
+    color: #333;
+    font-weight: bold;
+}
+
+/* bottom */
+.bottom{
+    margin-top: 20px;
+}
+.bottom_list{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.bottom_list ul li a{
+    color:#9d9d9d;
+}
+.bottom_list ul li a:hover{
+    color:#000;
+}
+.bottom_list ul li span{
+    color:#ccc;
+}
+
+.bottom_info{
+    margin: 10px auto;
+    text-align: center;
+}
+.bottom_info span{
+    color: #9d9d9d;
+    font-size: 14px;
+}
+.bottom_info i{
+    background-image: url(../img/align/ghs.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
