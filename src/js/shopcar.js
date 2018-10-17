@@ -160,7 +160,10 @@ $(function() {
 					{
 						if(arr[i].id=id)
 						{
+							debugger
+							console.log(arr)
 							arr.splice(i,1);
+							console.log(arr)
 							localStorage.clear();
 							arr = JSON.stringify(arr);localStorage.clear();localStorage.clear();
 							localStorage.setItem('hongmi',arr);
