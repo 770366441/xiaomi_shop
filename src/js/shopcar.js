@@ -1,4 +1,4 @@
-function fn() {
+﻿function fn() {
 	
 	var $Gou = document.querySelectorAll('.Gou ');
 	var priceAll = 0;
@@ -158,7 +158,7 @@ $(function() {
 				{
 					for(var k in arr[i])
 					{
-						if(arr[i].id=id)
+						if(arr[i].id==id)
 						{
 							debugger
 							console.log(arr)
